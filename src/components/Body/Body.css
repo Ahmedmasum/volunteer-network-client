@@ -1,0 +1,7 @@
+.cardItems {
+  display: flex;
+  font-size: 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}

@@ -1,0 +1,31 @@
+.addEvents-container {
+  margin-top: 80px;
+  width: 50% !important;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 3%;
+  margin-left: 35% !important;
+  border-radius: 15px;
+}
+.addEvents-container > h5 {
+  color: gray;
+  margin-left: 45%;
+}
+.addEvents-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.addEvents-form > input {
+  width: 45%;
+  margin-top: 5%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+.addEvents-form > input[type="submit"] {
+  border: none;
+  background-color: rgb(65, 65, 255);
+  color: white;
+  padding: 1%;
+  border-radius: 5px;
+}

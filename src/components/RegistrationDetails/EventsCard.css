@@ -1,0 +1,42 @@
+.event-card {
+  display: flex;
+  flex-direction: row;
+  width: 48%;
+  height: 200px;
+
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.eventCard-img {
+  width: 50%;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.eventCard-details {
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  font-size: 100%;
+  font-weight: bold;
+
+  width: 50%;
+}
+.eventCard-details > button {
+  outline: none;
+  border: none;
+
+  background-color: lightgray;
+  font-size: 80%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 30%;
+  margin-top: 17%;
+
+  border-radius: 5px;
+}

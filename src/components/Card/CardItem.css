@@ -1,0 +1,18 @@
+.card {
+  margin-bottom: 10px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-bottom {
+  height: 50px;
+  background-color: rgb(255, 197, 90);
+  cursor: pointer;
+
+  color: white !important;
+}
+
+/* .MuiTypography-body2 {
+  text-decoration: none !important;
+} */
